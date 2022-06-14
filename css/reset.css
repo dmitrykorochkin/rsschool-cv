@@ -31,6 +31,9 @@ footer,header,hgroup,menu,nav,section {
 nav ul {
     list-style:none;
 }
+ul {
+    list-style-type: none;
+}
 
 blockquote, q {
     quotes:none;
@@ -49,6 +52,7 @@ a {
     vertical-align:baseline;
     background:transparent;
     text-decoration:none;
+    
 
 }
 
