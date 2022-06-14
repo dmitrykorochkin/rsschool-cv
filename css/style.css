@@ -75,7 +75,8 @@ background-color: rgb(230, 230, 230);
 }
 
 .about-contacts {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
@@ -154,9 +155,51 @@ background-color: rgb(230, 230, 230);
 
 .code-example img {
     width: 600px;
+    margin-bottom: 30px;
 }
 
 .code-example__title {
     font-size: 25px;
     margin-bottom: 30px;
+}
+
+/******************* languages ******************************/
+footer {
+    background-color: rgb(246, 246, 246);
+}
+
+.languages {
+    padding-left: 30px;
+    padding-top:25px;
+    
+}
+.languages-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.languages-item {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* *************************** footer ********************************* */
+
+.footer-description {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    
+
+}
+.footer-logo img{
+    width: 130px;
+}
+
+.footer-year {
+    font-weight: 600;
+}
+
+.footer-git img {
+    width: 50px;
 }
