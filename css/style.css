@@ -1,11 +1,214 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-img {
-    width: 200px;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt';
     
 }
 
+a {
+    color: #000000
+}
+
+
+.header {
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.container {
+    max-width:1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav {
+    
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width:  800px;
+    margin: 0 auto;
+    font-size: 16px;
+
+}
+
+.nav-link {
+    color: rgb(0, 0, 0); 
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* ************************************************************ main ******************************************************************************** */
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+}
+
+.left-aside {
+background-color: rgb(230, 230, 230);
+    
+}
+.right-aside {
+    margin-top:100px;
+    margin-left: 100px;
+    
+}
+
+.about-img img {
+    width: 380px;
+    height: auto;
+}
+
+
+.aside-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.aside-subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-contacts {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+.about-contacts__title {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.about-contacts__github {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.about-contacts__telegram {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}   
+.about-contacts__email {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    width: 25px; 
+    margin-right: 10px;
+    
+}
+
+.about-me {
+    margin-bottom: 80px;
+}
+
+.about-education__title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about-education {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.education-item li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Skils */
+
+.skils {
+    margin-bottom: 70px;
+}
+.skils-title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.skils-wrapper {
+}
+.skils-item {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* example  */
+
+.code-example img {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.code-example__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+/******************* languages ******************************/
+footer {
+    background-color: rgb(246, 246, 246);
+}
+
+.languages {
+    padding-left: 30px;
+    padding-top:25px;
+    
+}
+.languages-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.languages-item {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* *************************** footer ********************************* */
+
+.footer-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    
+
+}
+.footer-logo img{
+    width: 130px;
+}
+
+.footer-year {
+    font-weight: 600;
+}
+
+.footer-git img {
+    width: 50px;
+}
+
+
+.red {
+    color: red;;
+}
+.blue {
+    color:blue;
+}
